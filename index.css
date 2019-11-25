@@ -18,34 +18,42 @@ body {
     position: absolute;
     width: 100%;
     height: 100px;
-    margin-top: 170px;
+    margin-top: 150px;
     
 }
 .word-two {
-    color: white;
+    color:cornsilk;
     margin:0 ;
     text-align: center;
     font-weight: bold;
 }
 .search {
     margin-top: 270px;
-    margin-left: 350px;
+    margin-left: 310px;
     position: absolute;
+}
+form {
+    font-size: 0;
 }
 input[type=text] {
     width: 600px;
-    border: 2px solid #fff;
-    border-radius: 10px;
+    border: 2px solid cornsilk;
     font-size: 16px;
-    background-color: white;
-    background-image: url('');
-    background-position: 10px 10px; 
+    background-color:cornsilk;
+    background-image: url('./img/72.png');
+    background-size: contain;
     background-repeat: no-repeat;
     padding: 10px 20px 10px 40px;
     box-shadow: 0 10px 20px rgba(0,0,0,0.10), 0 6px 6px rgba(0,0,0,0.18);
   }
   input[type=submit] {
-
+    padding: 10px 20px 10px 30px;
+    background-color:cornsilk;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.10), 0 6px 6px rgba(0,0,0,0.18);
+    border: 2px solid cornsilk;
+    font-size: 16px;
+    color: grey;
+    margin-right: 40px;
   }
 .fix-two {
     height: 400px;
