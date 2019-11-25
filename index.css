@@ -10,6 +10,11 @@ body {
     height: 400px;
     background-color: black;
     position: relative;
+    background-image: url('2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.4
+    filter: alpha(opacity=20);
 }
 .word-one {
     position: absolute;
@@ -19,9 +24,10 @@ body {
     
 }
 .word-two {
-    color: cornsilk;
+    color: white;
     margin:0 ;
     text-align: center;
+    font-weight: bold;
 }
 .fix-two {
     height: 400px;
