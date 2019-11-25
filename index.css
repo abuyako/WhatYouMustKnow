@@ -22,6 +22,10 @@ body {
     height: 400px;
     background-color: darkgoldenrod;
 }
+.footer {
+    height: 200px;
+    background-color: black;
+}
 
 
 
