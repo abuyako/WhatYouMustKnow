@@ -13,8 +13,6 @@ body {
     background-image: url('./img/2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.4
-    filter: alpha(opacity=20);
 }
 .word-one {
     position: absolute;
@@ -29,6 +27,26 @@ body {
     text-align: center;
     font-weight: bold;
 }
+.search {
+    margin-top: 270px;
+    margin-left: 350px;
+    position: absolute;
+}
+input[type=text] {
+    width: 600px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 10px 20px 10px 40px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.10), 0 6px 6px rgba(0,0,0,0.18);
+  }
+  input[type=submit] {
+
+  }
 .fix-two {
     height: 400px;
     background-color: burlywood;
