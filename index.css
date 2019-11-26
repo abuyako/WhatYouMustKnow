@@ -46,14 +46,15 @@ input[type=text] {
     padding: 10px 20px 10px 40px;
     box-shadow: 0 10px 20px rgba(0,0,0,0.10), 0 6px 6px rgba(0,0,0,0.18);
   }
-  input[type=submit] {
-    padding: 10px 20px 10px 30px;
+  .buttony {
+    padding: 10px 20px 11px 40px;
     background-color:cornsilk;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.10), 0 6px 6px rgba(0,0,0,0.18);
+    box-shadow: 0 10px 10px rgba(0,0,0,0.10), 0 6px 6px rgba(0,0,0,0.18);
     border: 2px solid cornsilk;
     font-size: 16px;
     color: grey;
     margin-right: 40px;
+    text-decoration: none;
   }
 .fix-two {
     height: 400px;
@@ -72,7 +73,45 @@ input[type=text] {
     background-color: black;
 }
 
+/* constituency part */
 
+
+/* Set height of body and the document to 100% */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial;
+  }
+  
+  /* Style tab links */
+  .tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+  }
+  
+  .tablink:hover {
+    background-color: #777;
+  }
+  
+  /* Style the tab content (and add height:100% for full page content) */
+  .tabcontent {
+    color: white;
+    display: none;
+    padding: 100px 20px;
+    height: 100%;
+  }
+  
+  #Home {background-color: red;}
+  #News {background-color: green;}
+  #Contact {background-color: blue;}
+  #About {background-color: orange;}
 
 
 

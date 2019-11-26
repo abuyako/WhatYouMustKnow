@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="index.css">
+    <script src="index.js" type="text/javascript"></script>
     <title> What You Must Know </title>
 </head>
 
@@ -21,9 +22,28 @@
                     constituencies know where yours now</p>
             </div>
             <div class="search">
-                <form>
-                    <input type="text" name="search" placeholder="Search for your region">
-                    <input type="submit" name="continue" value="Continue">
+                <form action="Cons.html">
+                    <input type="text" name="search" placeholder="Search for your region" list="datalist" onkeydown="ac(this.value)">
+                    <a href="Const.html" class="buttony">Continue</a>
+                    <!-- On keyup calls the function everytime a key is released -->
+                        <datalist id="datalist"> 
+                        
+                            <option value="Dar Es Salaam"></option> 
+                            <option value="Dodoma"></option> 
+                            <option value="Singida"></option> 
+                            <option value="Morogoro"></option> 
+                            <option value="Mwanza"></option> 
+                            <option value="Mtwara"></option> 
+                            <option value="kigoma"></option> 
+                            <option value="kagera"></option> 
+                            <option value="Arusha"></option> 
+                            <option value="Moshi"></option> 
+                            <option value="Babati"></option> 
+                            <option value="Mbeya"></option> 
+                            <option value="Tanga"></option> 
+                
+                        <!-- This data list will be edited through javascript     -->
+                        </datalist> 
                 </form>
             </div>
         </div>
